@@ -43,4 +43,3 @@ CREATE INDEX ix_activeuser_employeeid
 CREATE INDEX ix_activeuser_sessionkey
   ON activeuser
   USING btree(sessionkey);
-
